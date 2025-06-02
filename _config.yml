@@ -14,8 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale                   : "en-US"
-title                    : "ronan  
-                            hart"
+title                    : "ronan hart"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in mastheademail                 :
 description              : >- # this means to ignore newlines until "baseurl:"
@@ -26,6 +25,7 @@ repository               : ronanhart.github.io # GitHub username/repo-name e.g. 
 github_username          : ronanhart
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo_alt                 : "outline in white of a front-facing coyote skull surrounded on both sides by two branches of a plant"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 minimal_mistakes_skin    : dark # default, air, contrast, dark, dirt, mint, sunrise, aqua, neon, plum
 search                   : true
