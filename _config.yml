@@ -13,28 +13,153 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+locale                   : "en-US"
+title                    : Ronan Hart
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in mastheademail                 :
+description              : >- # this means to ignore newlines until "baseurl:"
+  My personal website
+url                      : "https://ronanhart.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : ronanhart.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+github_username          : ronanhart
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+minimal_mistakes_skin    : dark
+search                   : true
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+  hide                   : # true, false (default)
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
 # Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+markdown              : kramdown
+remote_theme          : mmistakes/minimal-mistakes
+
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink             : /:categories/:title/
+paginate              : 5 # amount of posts to show
+paginate_path         : /page:num/
+timezone              : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
+
+# Site Author
+author:
+  name      : "Ronan Hart"
+  avatar    : "/assets/images/bio-photo.jpg"
+  bio       : "ecologist. artist."
+  location  : "Albuquerque, NM"
+  email     : "ronanhart92@gmail.com"
+  links:
+    #- label : "Website"
+    #  icon  : "fas fa-fw fa-link"
+    #  url   : "https://"
+    - label : "Twitter"
+      icon  : "fab fa-fw fa-twitter-square"
+      url   : "https://twitter.com/"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/"
+    - label : "Instagram"
+      icon  : "fab fa-fw fa-instagram"
+      url   : "https://instagram.com/"
+    - label : "Google Scholar"
+      icon  : "fa fa-graduation-cap"
+      url   : "https://scholar.google.com/citations?user=41Xc1hAAAAAJ&hl=en&oi=ao"
+    - label : "ORCiD"
+      icon  : "fa-brands fa-orcid"
+      url   : "https://orcid.org/0000-0001-8596-2302"
+    #- label : "Email"
+    #  icon  : "fa fa-envelope"
+    #  url   : "mailto:ronanhart92@gmail.com"
+
+footer:
+  links:
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/ronanhart"
+    - label : "Instagram"
+      icon  : "fab fa-fw fa-instagram"
+      url   : "https://instagram.com/"
+    - label : "Bluesky"
+      icon  : "fa-brands fa-bluesky"
+      url   : "https://bsky.app/profile/ronanhart.bsky.social"
+    - label : "Google Scholar"
+      icon  : "fa fa-graduation-cap"
+      url   : "https://scholar.google.com/citations?user=41Xc1hAAAAAJ&hl=en&oi=ao"
+    - label : "ORCiD"
+      icon  : "fa-brands fa-orcid"
+      url   : "https://orcid.org/0000-0001-8596-2302"
+    - label : "Email"
+      icon  : "fa fa-envelope"
+      url   : "mailto:ronanhart92@gmail.com"
+      
+
+defaults:
+  # _posts
+  - scope:
+      path            : ""
+      type            : posts
+    values:
+      layout          : single
+      author_profile  : true
+      read_time       : true
+      comments        : true
+      share           : true
+      related         : true
+  # _pages
+  - scope:
+      path            : "_pages"
+      type            : pages
+    values            :
+      layout          : single
+      author_profile  : true
+
+category_archive:
+  type            : liquid
+  path            : /categories/
+tag_archive:
+  type            : liquid
+  path            : /tags/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -57,59 +182,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
