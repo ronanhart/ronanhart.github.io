@@ -90,12 +90,6 @@ author:
   location  : "Albuquerque, NM"
   email     : "ronanhart92@gmail.com"
   links:
-    #- label : "Website"
-    #  icon  : "fas fa-fw fa-link"
-    #  url   : "https://"
-    - label : "Twitter"
-      icon  : "fab fa-fw fa-twitter-square"
-      url   : "https://twitter.com/"
     - label : "GitHub"
       icon  : "fab fa-fw fa-github"
       url   : "https://github.com/"
@@ -129,9 +123,9 @@ footer:
     - label : "ORCiD"
       icon  : "fa-brands fa-orcid"
       url   : "https://orcid.org/0000-0001-8596-2302"
-    - label : "Email"
-      icon  : "fa fa-envelope"
-      url   : "mailto:ronanhart92@gmail.com"
+    #- label : "Email"
+    #  icon  : "fa fa-envelope"
+    #  url   : "mailto:ronanhart92@gmail.com"
       
 
 defaults:
