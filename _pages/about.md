@@ -10,4 +10,4 @@ header:
 
 <img src = "/assets/images/about-photo.jpg" alt="photo of Ronan" width="30%">
 
-Ronan's bio. Want to figure out how to make 2 columns to have bio next to photo
+Ronan's bio. Want to figure out how to make 2 columns to have bio next to photo. New text.
