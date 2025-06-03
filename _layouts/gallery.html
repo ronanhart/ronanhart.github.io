@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<ul>
+  {% for image in site.photo_gallery %}
+    <li>
+      <figure>
+        <a href="{{image.image_path}}" class="image-popup" title="{{ image.title }}">
+          <img src="{{image.image_path}}" alt="{{ image.title }}" style="width:50%">
+        </a>
+      </figure>
+    </li>
+  {% endfor %}
+</ul>
+
