@@ -4,7 +4,7 @@ classes: wide
 permalink: /about/
 header:
    image: "assets/images/headers/20210326_132038.jpg"
-   caption: "Ronan Hart. Dead Horse Point, Utah"
+   caption: "Dead Horse Point, Utah. Photo by Ronan Hart"
    image_description: 
       "a juniper tree on a cliff of red-colored earth surrounded by smaller junipers and other shrubs. In the background are other cliffs and a cloudy sky. This photo was taken by Ronan Hart at Dead Horse Point, Utah on 2021-03-26."
 ---

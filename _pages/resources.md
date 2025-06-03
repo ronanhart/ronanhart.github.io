@@ -4,7 +4,7 @@ classes: wide
 permalink: /resources/
 header:
    image: "assets/images/headers/20241101_073334.jpg"
-   caption: "Ronan Hart. Albuquerque, NM"
+   caption: "Albuquerque, NM. Photo by Ronan Hart"
    image_description: 
       "A desert flower in focus in the foreground with the background of desert shrubs, mountains, and a setting sun out of focus. This photo was taken by Ronan Hart outside of Albuquerque, New Mexico on 2024-11-01."
 ---

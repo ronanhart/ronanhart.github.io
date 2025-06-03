@@ -4,7 +4,7 @@ classes: wide
 permalink: /news/
 header:
    image: "assets/images/headers/20230424_111951-EDIT.jpg"
-   caption: "Ronan Hart. Yellowstone, WY"
+   caption: "Yellowstone, WY. Photo by Ronan Hart"
    image_description: 
       "Five bison walking on a road, the smallest is in front. In the background are conifer trees. The ground has snow that is beginning to melt. This photo was taken by Ronan Hart in Yellowstone near Gardiner, Montana on 2023-04-24."
 ---
