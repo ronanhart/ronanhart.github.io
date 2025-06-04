@@ -2,6 +2,7 @@
 title: Photos
 permalink: /photos/
 ---
+{% include image-gallery.html %}
 
 {% assign sorted_gallery = site.photo_gallery | sort: 'date' %}
 <ul class="photo-gallery">
