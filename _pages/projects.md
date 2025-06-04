@@ -9,25 +9,26 @@ header:
 
 feature_row1:
   - image_path: /assets/images/gallery/20230424_111012.jpg
-    alt: "placeholder image 2"
+    alt: "placeholder"
     title: "Particulate Matter"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    excerpt: 'What do particulate matter concentrations look like on a university campus? How do 2D and 3D landscape variations coupled with weather affect these concentrations?'
     url: /projects/particulate-matter/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: /assets/images/gallery/20210324_153010.jpg
-    alt: "placeholder image 2"
+  - image_path: /assets/images/23168572643_243e4bdda8_o.jpg
+    alt: "placeholder"
     title: "Ungulate Space-Use"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    image_caption: "[Photo by Tom Koerner/USFWS](https://www.flickr.com/photos/usfwsmtnprairie/23168572643/)"
+    excerpt: 'How do pronghorn and mule deer respond to roads and fences? What sort of space-use decisions and consequences do these responses manifest as?'
     url: /projects/ungulate-space-use/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row3:
   - image_path: /assets/images/gallery/20240601_175113.jpg
-    alt: "placeholder image 2"
+    alt: "placeholder"
     title: "Living Maps"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: /projects/living-maps/
