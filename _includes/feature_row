@@ -11,7 +11,7 @@
       <div class="archive__item">
         {% if f.image_path %}
           <div class="archive__item-teaser">
-            <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' }}{{ file.path | relative_url }}&w=1000&h=1000&output=jpg&q=50&t=square"
+            <img src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' }}{{ f.image_path | relative_url }}&w=1000&h=1000&output=jpg&q=50&t=square"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}"
                  width=300 height=300>
             {% if f.image_caption %}
