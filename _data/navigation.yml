@@ -10,6 +10,3 @@ main:
 
   - title: "news"
     url: /news/
-
-  - title: "art"
-    url: /gallery/
