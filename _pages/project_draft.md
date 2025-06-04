@@ -1,6 +1,6 @@
 ---
 title: Projects
-permalink: /projects/
+permalink: /project_draft/
 header:
    image: 
    caption: 
@@ -48,7 +48,6 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
