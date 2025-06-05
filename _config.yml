@@ -194,3 +194,5 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  publications:
+    output: false
