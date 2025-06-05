@@ -2,6 +2,7 @@
 title: Gallery
 permalink: /gallery/
 ---
-more text.
 
-{% include image-gallery.html folder="/assets/images/gallery" %}
+{% assign sorted_gallery = site.photo_gallery | sort: 'date' %}
+
+{% include my-portfolio.html images=sorted_gallery %}
