@@ -1,0 +1,35 @@
+<style>
+    .project {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 0px;
+    }
+    .thumbnail{
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    }
+    .thumbnail img{
+    object-fit: cover;
+    position: relative;
+    left: -25%;
+    top: -5%;
+    }
+    .thumbnail a{
+    float: left;
+    position: relative;
+    }
+</style>
+
+{% for image in include.images reversed %}
+<div class="project">
+    <div class= "thumbnail">
+        <a class="thumbnail" href="{{ image.image_path }}" class="image-popup" title="{{ image.title }}. {{ image.location }}. {{ image.month }} {{ image.year }}. Photo by {{ image.author }}.">
+            <img class="thumbnail" src="{{ image.image_path }}" alt="{{ image.alt }}"/>
+        </a>
+    </div>
+</div>
+{% endfor %}
