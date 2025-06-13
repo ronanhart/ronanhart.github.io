@@ -27,9 +27,19 @@
     {% endfor %}
   </div>
   <div class="column">
-    <img src="https://ronanhart.github.io/assets/images/gallery/20240524_140506.jpg">
+    <!--<img src="https://ronanhart.github.io/assets/images/gallery/20240524_140506.jpg">-->
+    {% for image in include.images reversed %}
+      <a href="{{ image.image_path }}" class="image-popup" title="{{ image.title }} <br>{{ image.location }}. {{ image.month }} {{ image.year }}. Photo by {{ image.author }}.">
+        <img src="{{ image.image_path }}" alt="{{ image.alt }}">
+      </a>
+    {% endfor %}
   </div>
   <div class="column">
-    <img src="https://ronanhart.github.io/assets/images/gallery/20230424_111012.jpg">
+    <!--<img src="https://ronanhart.github.io/assets/images/gallery/20230424_111012.jpg">-->
+    {% for image in include.images %}
+      <a href="{{ image.image_path }}" class="image-popup" title="{{ image.title }} <br>{{ image.location }}. {{ image.month }} {{ image.year }}. Photo by {{ image.author }}.">
+        <img src="{{ image.image_path }}" alt="{{ image.alt }}">
+      </a>
+    {% endfor %}
   </div>
 </div>
