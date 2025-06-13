@@ -186,7 +186,9 @@ whitelist:
   - jekyll-include-cache
 
 collections:
-  photo_gallery:
+  gallery_photo:
+    output: false
+  gallery_art:
     output: false
   portfolio:
     output: true

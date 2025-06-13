@@ -3,7 +3,7 @@ title: Photos
 permalink: /photos/
 author_profile: false
 ---
-{% assign sorted_gallery = site.photo_gallery | sort: 'date' %}
+{% assign sorted_gallery = site.gallery_photo | sort: 'date' %}
 
   {% if sorted_gallery.size == 2 %}
     {% assign gallery_layout = 'half' %}
