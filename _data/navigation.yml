@@ -1,5 +1,5 @@
 main:
-  - title: "about"
+  - title: ".about"
     url: /about/
   
   - title: ".ecologist"
@@ -7,6 +7,9 @@ main:
   
   - title: ".artist"
     url: /artist/
+  
+  - title: ".resources"
+    url: /resources/
 
-  - title: "news"
+  - title: ".news"
     url: /news/
