@@ -1,5 +1,5 @@
 ---
-image_path: /assets/images/gallery/20240524_140506.jpg
+image_path: /assets/images/portfolio/photos/20240524_140506.jpg
 title: a prickly pear magenta flower
 alt: test2
 author: Ronan Hart 

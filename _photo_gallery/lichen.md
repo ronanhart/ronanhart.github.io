@@ -1,5 +1,5 @@
 ---
-image_path: /assets/images/gallery/20241103_114431.jpg
+image_path: /assets/images/portfolio/photos/20241103_114431.jpg
 title: Lichen growing on a branch
 alt: a branch with many different cup-like lichens of colors like orange-yellow, sage, and forest green. Some frost and snow is on the branch.
 author: Ronan Hart 

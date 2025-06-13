@@ -1,5 +1,5 @@
 ---
-image_path: /assets/images/gallery/20240527_150300.jpg
+image_path: /assets/images/portfolio/photos/20240527_150300.jpg
 title: a prickly pear yellow flower
 alt: test2
 author: Ronan Hart 

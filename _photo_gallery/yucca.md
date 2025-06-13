@@ -1,5 +1,5 @@
 ---
-image_path: /assets/images/gallery/20240524_151807.jpg
+image_path: /assets/images/portfolio/photos/20240524_151807.jpg
 title: a yucca and its flowers
 alt: test2
 author: Ronan Hart 
