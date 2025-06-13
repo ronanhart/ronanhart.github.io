@@ -17,7 +17,7 @@ feature_row1:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: /assets/images/23168572643_243e4bdda8_o.jpg
+  - image_path: https://live.staticflickr.com/5727/23168572643_02c4cf75d5_4k.jpg
     alt: "placeholder"
     title: "Ungulate Space-Use"
     image_caption: "[Photo by Tom Koerner/USFWS](https://www.flickr.com/photos/usfwsmtnprairie/23168572643/)"
