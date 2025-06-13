@@ -10,7 +10,10 @@ header:
    image_description: 
      "Red sandstone with green sagebrush and other shrubs in the foreground. This photo was taken by Ronan Hart outside St. George, UT on 2022-04-30."
    actions:
-    -   label: "C.V."
+    - label: "C.V."
+    - label: "Projects"
+      url: /ecologist/projects/
+    
 excerpt: "spatial, landscape, wildlife, movement ecology"
 ---
 

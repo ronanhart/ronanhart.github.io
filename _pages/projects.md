@@ -8,7 +8,7 @@ header:
      "A family of 8 mule deer in the shrubland. Many of them are looking at the photographer. This photo was taken by Ronan Hart in the Sandia Mountain foothills outside Albuquerque, NM on 2024-02-03."
 
 feature_row1:
-  - image_path: /assets/images/gallery/20230424_111012.jpg
+  - image_path: /assets/images/portfolio/photos/20230424_111012.jpg
     alt: "placeholder"
     title: "Particulate Matter"
     excerpt: 'What do particulate matter concentrations look like on a university campus? How do 2D and 3D landscape variations coupled with weather affect these concentrations?'
@@ -17,7 +17,7 @@ feature_row1:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: https://live.staticflickr.com/5727/23168572643_02c4cf75d5_4k.jpg
+  - image_path: /assets/images/23168572643_243e4bdda8_o_sq.jpg
     alt: "placeholder"
     title: "Ungulate Space-Use"
     image_caption: "[Photo by Tom Koerner/USFWS](https://www.flickr.com/photos/usfwsmtnprairie/23168572643/)"
@@ -27,7 +27,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: /assets/images/gallery/20240601_175113.jpg
+  - image_path: /assets/images/portfolio/photos/20240601_175113.jpg
     alt: "placeholder"
     title: "Living Maps"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
