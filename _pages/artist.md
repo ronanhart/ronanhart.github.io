@@ -11,18 +11,32 @@ header:
 excerpt: "integrating natural history with art"
 
 feature_row:
-  - image_path: /assets/images/portfolio/photos/20241103_114431.jpg
+    # Art
+  - image_path: /assets/images/portfolio/art/IMG_0745.png
     alt: "placeholder image 1"
-    title: "Placeholder 1"
+    title: "Art"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/portfolio/photos/20240524_151807.jpg
+    
+    # Photos
+  - image_path: /assets/images/portfolio/photos/20230424_111012.jpg
     alt: "placeholder image 2"
-    title: "Placeholder 2"
+    title: "Photos"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/artist/photos/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
+    # Art & Science
+  - image_path: /assets/images/portfolio/art/framework-slide.jpg
+    alt: "placeholder image 2"
+    title: "Art & Science"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
+
+{% include feature_row %}
