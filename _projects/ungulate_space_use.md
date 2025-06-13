@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Ungulate Space-Use
-permalink: /projects/ungulate-space-use/
+permalink: /ecologist/projects/ungulate-space-use/
 header:
    image: "/assets/images/headers/23168572643_243e4bdda8_o.jpg"
    caption: "[Photo by Tom Koerner/USFWS](https://www.flickr.com/photos/usfwsmtnprairie/23168572643/)"

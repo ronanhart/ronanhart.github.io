@@ -1,5 +1,5 @@
 ---
 layout: posts
 title: Particulate Matter
-permalink: /projects/particulate-matter/
+permalink: /ecologist/projects/particulate-matter/
 ---
